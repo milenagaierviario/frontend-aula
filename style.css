@@ -1,0 +1,48 @@
+/* Estilos para centralizar e estilizar a página */
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background-color:rgb(248, 208, 214) ;
+    display:flex ; /*flexbox (auxilia na disposição do conteúdo)*/
+    justify-content: center; /*justificando ao centro*/
+    align-items: center;
+    height: 100vh ; /*Definindo a altura (100vh significa que vai ocupar toda a extensõ da nossa página*/
+    margin:0;
+}
+.container{
+    background-color:rgb(143, 238, 238) ; /*cor de fundo do container*/
+    padding: 20px; /*preenchimento*/
+    border-radius: 10px; /*borda arredondada*/
+    box-shadow: 0px 0px 10px; /*sombra na borda*/
+    text-align: center;
+    width: 300px;
+}
+h1 {
+    font-size: 30px ; /*tamanho da fonte do título de nível 1*/
+    margin-bottom: 20px;/*margem do no h1 em relação a parte inferior*/
+
+}
+input,select{
+    width: 85%;
+    padding: 10px ;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+    border: 2px solid #f3d6ec; /*estilo da borda: 1px= espessura da linha, solid estilo da linha (linha solida #ddd= cor */
+    border-radius: 5px ;
+}
+
+button{
+    width: 100% ;
+    padding: 10px ;
+    background-color:rgb(106, 236, 236) ;
+    color:rgb(0, 0, 0) ; /*cor da letra*/
+    cursor: pointer; /*muda o cursor ao se aproximar do botão*/
+}
+button:hover{
+    background-color: #f3d6ec; /*muda a cor do botão ao passar o mouse por ele*/
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+}
