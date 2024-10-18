@@ -1,29 +1,35 @@
-<!--para abrir o html terá que abrir o DOCTYPE e escolher o 5, que é a 3° opção-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moedas</title>
-    <script src ="logica.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <title>Estrutura HTML</title>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
-    <div class="container">
-    <h1> Conversor de Moedas </h1>
-    <!-- Campo de entrada para o valor em reais (BRL)-->
-     <input type="number" id="valor" placeholder="Digite o valor em BRL">
-     <!--botão para converter-->
-     <button onclick="converter()" >Converter</button>
-     <!--Seletor para escolher a moeda de destino-->
-     <select id="moeda">
-        <option value="USD"> Dólar (USD) </option>
-        <option value="EUR"> Euro (EUR) </option>
-        <option value="GBP"> Libra (GBP) </option>
-     </select>
-     <!--Onde o resultado será exibido-->
-     <div id="resultado" ></div>
-    </div>
+    <!--Cabeçalho da página--> 
+    <header>
+        <h1>Bem-vindo à página de Estruturas Semânticas</h1> <!--Título maior-->
+        <p>Exemplo de estruturação semântica em HTML 5 </p> <!-- cria um parágrafo-->
+    </header>
+    <!--Navegação principal da página-->
+     <nav>
+        <!--criando uma lista-->
+        <ul>
+            <li><a href="#"> Início </a> </li>
+            <li><a href="#"> Sobre </a> </li>
+            <li><a href="#"> Serviços </a> </li>
+            <li><a href="#"> Contatos </a> </li>
+        </ul>
+     </nav>
+     <article>
+        <h2>Seção Principal</h2>
+        <p>Aqui colocamos o conteúdo principal da página</p>
+     </article>
+     <!--Rodapé-->
+     <footer>
+        <p> &copy; 2024. Todos os direitos reservados. </p>
+        <p> Política de privacidade. </p>
+     </footer>
 </body>
 </html>
- 
